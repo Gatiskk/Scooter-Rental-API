@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental_Api", "ScooterRental.Api\ScooterRental_Api.csproj", "{5217EDC2-801E-47D3-BAE9-20BFA5D59C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental.Core", "ScooterRental.Core\ScooterRental.Core.csproj", "{597594FC-62F5-4F91-BAE0-16B49EEB055A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental.Services", "ScooterRental.Services\ScooterRental.Services.csproj", "{60421271-DC44-44AB-8218-A918B2CAB910}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental.Data", "ScooterRental.Data\ScooterRental.Data.csproj", "{3909C124-354E-48AD-81CA-F69464D80E83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental.Tests", "ScooterRental.Services.Tests\ScooterRental.Tests.csproj", "{08A359B2-DCCC-4BA1-8438-D5342C0204DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5217EDC2-801E-47D3-BAE9-20BFA5D59C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5217EDC2-801E-47D3-BAE9-20BFA5D59C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5217EDC2-801E-47D3-BAE9-20BFA5D59C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5217EDC2-801E-47D3-BAE9-20BFA5D59C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597594FC-62F5-4F91-BAE0-16B49EEB055A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597594FC-62F5-4F91-BAE0-16B49EEB055A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597594FC-62F5-4F91-BAE0-16B49EEB055A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597594FC-62F5-4F91-BAE0-16B49EEB055A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60421271-DC44-44AB-8218-A918B2CAB910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60421271-DC44-44AB-8218-A918B2CAB910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60421271-DC44-44AB-8218-A918B2CAB910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60421271-DC44-44AB-8218-A918B2CAB910}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3909C124-354E-48AD-81CA-F69464D80E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3909C124-354E-48AD-81CA-F69464D80E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3909C124-354E-48AD-81CA-F69464D80E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3909C124-354E-48AD-81CA-F69464D80E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A359B2-DCCC-4BA1-8438-D5342C0204DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A359B2-DCCC-4BA1-8438-D5342C0204DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A359B2-DCCC-4BA1-8438-D5342C0204DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A359B2-DCCC-4BA1-8438-D5342C0204DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23464040-9EBC-4496-AE7C-C3D08D81138C}
+	EndGlobalSection
+EndGlobal
